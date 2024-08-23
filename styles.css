@@ -1,114 +1,55 @@
-body {
-    font-family: 'Pretendard';
+*{
+    font-family: "Pretendard", sans-serif;
+    list-style: none;
+    text-decoration: none;
+    border-collapse: collapse;
     margin: 0;
     padding: 0;
+    color:#000;
 }
 
-.container {
-    width: 90%;
-    max-width: 1200px;
-    margin: 0 auto;
+.intro_bg{
+    background-color: #F2E9D8;
+    width: 100%;
+    height: 900px;
+}
+
+.header{
     display: flex;
-    justify-content: space-between;
+    width: 1280px;
+    margin: auto;
+    height: 102px;
     align-items: center;
 }
 
-.header__site-logo{
+.logo{
     width: 130px;
     height: 40px;
-    gap: 0px;
-    opacity: 0px;
-    border: 12px
+
 }
 
-.header {
-    background: #F2E9D8;
-    padding: 20px 0;
-    position: relative;
-    z-index: 10;
-}
 
-.nav ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
+.nav{
     display: flex;
+    justify-content: flex-end;
+    line-height: 41px;
+    width:calc(1280px - 130px);
     gap: 30px;
 }
 
-.nav ul li a {
-    text-decoration: none;
-    color: #000;
+.nav ul li {
+    margin-right: 0;
+}
+
+.nav ul li:last-child {
+    margin-right: 0;
+    margin-left: 49px;
 }
 
 .download-btn {
-    background: #D97652;
+    background-color: #D97652;
     color: #fff;
     padding: 10px 20px;
-    border-radius: 20px;
-    text-align: center;
+    border-radius: 40px;
+    
 }
-
-.head {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 60px 0;
-    background-color: #F2E9D8
-}
-
-.head-text {
-    max-width: 50%;
-}
-
-.head-text h1 {
-    font-size: 48px;
-    margin-bottom: 0px;
-    line-height: 1.2;
-}
-
-.head-text p {
-    font-size: 18px;
-    margin-bottom: 40px;
-}
-
-
-.content {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 60px 0;
-}
-
-.content-image img {
-    max-width: 100%;
-    border-radius: 30px;
-}
-
-.content-text {
-    max-width: 50%;
-}
-
-.content-text h2 {
-    font-size: 36px;
-    margin-bottom: 20px;
-    line-height: 45px;
-}
-
-.content-text p {
-    font-size: 16px;
-    margin-bottom: 30px;
-}
-
-.highlight {
-    text-align: center;
-    padding: 60px 0;
-    background-color: #fff;
-}
-
-.highlight h2 {
-    font-size: 32px;
-    color: #D97652;
-    ;
-}
-

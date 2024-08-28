@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HODU</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="background">
+        <header class="header">
+            <a href="HODU.html">
+                <img src="Logo-fin.png" alt="로고" class="logo"></a>
+            <nav class="nav">
+                <a href="#">Home</a>
+                <a href="#">About</a>
+                <a href="#">Support</a>
+                <a href="#" class="download-button-one">Download</a>
+            </nav>
+        </header>
+        <div class="container">
+            <div class="text-wrap">
+            <h1>Lorem Ipsum is simply<br>dummy text of the printing and</h1>
+            <h4>Lorem Ipsum is simply dummy text of the printing and typesetting industry.<br>Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown</h4>
+            <a href="#" class="download-button-two">Download</a>
+            </div>
+            <img src="cat-box.png" alt="상자를 쓴 고양이" class="cat-box">
+        </div>
+    </div>    
+    <div class ="main">
+        <img src="cat-bed.jpg" alt="침대 위의 고양이" class="cat-bed">
+        <div class="main-text">
+            <h2>Lorem Ipsum is simply dummy text of the printing and dummy text</h2>
+            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+        </div>
+    </div>
+    <div class="main-text2">
+        <h3>dummy text of the printing and dummy</h3>
+        <p>Lorem Ipsum is simply <span class="highlight">dummy text</span> of the printing and typesetting industry.<br>Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown</p>
+    </div>
+    <div class="image-wrap">
+        <div class="image_hg1">
+            <img src="img_1.png" alt="hug사진 1" class="hug">
+            <img src="img_2.png" alt="hug사진 2" class="hug">
+            <img src="img_3.png" alt="hug사진 3" class="hug">
+        </div>
+        <div class="image_hg2">
+            <img src="img_4.png" alt="hug사진 1" class="hug">
+            <img src="img_5.png" alt="hug사진 2" class="hug">
+            <img src="img_6.png" alt="hug사진 3" class="hug">
+        </div>
+        <div class="text_hg">
+            <h5>Continue exploring HODU</h5>
+            <a href="#" class="show-more">Show more</a>
+            <div class="divider"></div>
+        </div>
+    </div>
+    <div class="map-wrap">
+        <h6>Where you’ll be</h6>
+        <p>330, Cheomdan-ro, Jeju-si, Jeju-do, Republic of Korea</p>
+        <!-- * 카카오맵 - 지도퍼가기 -->
+<!-- 1. 지도 노드 -->
+        <div id="daumRoughmapContainer1724805200078" class="root_daum_roughmap root_daum_roughmap_landing"></div>
+
+        <script charset="UTF-8" class="daum_roughmap_loader_script" src="https://ssl.daumcdn.net/dmaps/map_js_init/roughmapLoader.js"></script>
+
+<!-- 3. 실행 스크립트 -->
+        <script charset="UTF-8">
+	        new daum.roughmap.Lander({
+                "timestamp" : "1724805200078",
+                "key" : "2kh2w",
+                "mapWidth" : "640",
+                "mapHeight" : "260"
+            }).render();
+        </script>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
+

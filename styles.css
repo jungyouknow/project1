@@ -97,7 +97,6 @@
 
 .text-wrap h4 {
     width : 450px;
-    margin-bottom: 40px;
     line-height: 20px;
     margin-bottom: 40px;
 }
@@ -142,6 +141,7 @@
 }
 
 .main-text h2 {
+    margin-top: 20px;
     font-size: 36px;
     font-weight: 700;
     line-height: 45px;
@@ -227,10 +227,10 @@
 }
 
 .divider {
-    width: 1280px; 
+    width: 1400px; 
     height: 1px;
     background-color: #C4C4C4;
-    margin: 80px 320px 0; 
+    margin: 80px auto 0; 
 }
 
 .map-wrap {

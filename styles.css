@@ -244,7 +244,7 @@
 
 .root_daum_roughmap root_daum_roughmap_landing {
     margin: 0 320px;
-    justify-content: center;
+    text-align: center;
 }
 
 .subscribe-container {

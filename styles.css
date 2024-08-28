@@ -243,7 +243,10 @@
 }
 
 .root_daum_roughmap root_daum_roughmap_landing {
-    padding: 0 320px;
+    margin: 0 320px;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
 }
 
 .subscribe-container {

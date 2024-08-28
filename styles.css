@@ -227,10 +227,10 @@
 }
 
 .divider {
-    width: 1600px; 
+    width: 1280px; 
     height: 1px;
     background-color: #C4C4C4;
-    margin: 80px auto 0; 
+    margin: 80px 320px 0; 
 }
 
 .map-wrap {

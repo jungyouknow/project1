@@ -4,30 +4,28 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>HODU</title>
-    <link rel="stylesheet" href="mobile_styles.css">
+    <link rel="stylesheet" href="css_mobile.css">
 </head>
 <body>
     <div class="background">
         <header class="header">
-            <a href="index-m.html"><img src="Logo-fin.png" alt="로고" class="logo"></a>
-            <button id="open-menu" class="open-menu" onclick="openMenu()"></button>
-            <div class="nav-menu">
-                <button id="close-menu" class="close-menu" onclick="closeMenu()"></button>
-                <nav class="nav">
-                    <ul>
-                        <a href="index.html">Home</a>
-                        <a href="#">About</a>
-                        <a href="#">Support</a>
-                    </ul>
-                    <a href="#" class="download-button">Download</a>
-                </nav>
-            </div>
+            <a href="index.html"><img src="Logo-fin.png" alt="로고" class="logo"></a>
+            <a href="javascript:void(0);" id="open-menu" class="open-menu" onclick="openMenu()"></a>
         </header>
+        <nav class="nav">
+            <a href="javascript:void(0);" id="close-menu" class="close-menu" onclick="closeMenu()"></a>
+            <div class="nav-menu">    
+                <button>Home</button>
+                <button>About</button>
+                <button>Support</button>
+                <button id="download-button">Download</button>
+            </div>
+        </nav>
         <div class="container">
             <div class="text-wrap">
                 <h1>Lorem Ipsum is simply<br>dummy text of the printing and</h1>
                 <h4>Lorem Ipsum is simply dummy text of the printing and typesetting industry.<br>Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown</h4>
-                <a href="#" class="download-button">Download</a>
+                <button id="download-button">Download</button>
             </div>
             <img src="cat-box.png" alt="상자를 쓴 고양이" class="cat-box">
         </div>
@@ -40,57 +38,85 @@
         </div>
     </div>
     <div class="main-text2">
-        <h3>dummy text of the printing and dummy</h3>
-        <p>Lorem Ipsum is simply <span class="highlight">dummy text</span> of the printing and typesetting industry.<br>Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown</p>
-    </div>
-    <div class="image-wrap">
-        <div class="image_hg1">
+        <div class="main-text2-box">
+            <h3>dummy text of the printing and dummy</h3>
+            <p>Lorem Ipsum is simply <span class="highlight">dummy text</span> of the printing and typesetting industry.<br>Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown</p>
+        <div class="image-wrap">
             <img src="img_1.png" alt="hug사진 1" class="hug">
             <img src="img_2.png" alt="hug사진 2" class="hug">
             <img src="img_3.png" alt="hug사진 3" class="hug">
-        </div>
-        <div class="image_hg2">
-            <img src="img_4.png" alt="hug사진 1" class="hug">
-            <img src="img_5.png" alt="hug사진 2" class="hug">
-            <img src="img_6.png" alt="hug사진 3" class="hug">
-        </div>
-        <div class="text_hg">
-            <h5>Continue exploring HODU</h5>
-            <a href="#" class="show-more">Show more</a>
-            <div class="divider"></div>
+            <img src="img_4.png" alt="hug사진 4" class="hug">
+            <img src="img_5.png" alt="hug사진 5" class="hug">
+            <img src="img_6.png" alt="hug사진 6" class="hug">
         </div>
     </div>
-    <div class="subscribe-container">
-        <div class="subscribe-container-text">
-            <h6>Subscribe to our Blog post</h6>
-            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text</p>
+    <div class="text_hg">
+        <h5>Continue exploring HODU</h5>
+        <a href="#" class="show-more">Show more</a>
+        <div class="divider"></div>
+    </div>
+    <div class="main-text3">
+        <div class="map-wrap">
+            <h6>Where you’ll be</h6>
+            <p>330, Cheomdan-ro, Jeju-si, Jeju-do, Republic of Korea</p>
         </div>
-        <div class="subscribe-box">
-            <img src="mail.png" alt="메일 로고" class="mail-logo">
-            <input type="email" id="email" placeholder="Enter your e-mail address">
-            <button id="subscribe-btn" class="subscribe-btn">Subscribe</button>
-        </div>
-        <div id="modal" class="modal" style="display: none;">
-            <div class="modal-content">
-                <img src="modal_cat.png" alt="모달 고양이" class="modal_cat">
-                <h7>Thank you!</h7>
-                <p>Lorem Ipsum is simply dummy text of the printing industry.</p>
-                <button id="close-btn" class="close-btn">OK! I Love HODU</button>
+        <div id="daumRoughmapContainer1724875343882" class="root_daum_roughmap root_daum_roughmap_landing" style="width=100%"></div>
+        <script charset="UTF-8" class="daum_roughmap_loader_script" src="https://ssl.daumcdn.net/dmaps/map_js_init/roughmapLoader.js"></script>
+        <script charset="UTF-8">
+    	new daum.roughmap.Lander({
+    		"timestamp" : "1724875343882",
+    		"key" : "2khfo",
+    		"mapWidth" : "326",
+    		"mapHeight" : "132"
+    	}).render();
+        </script>
+    </div>
+    <div class="main-text4">
+        <div class="subscribe-container">
+            <div class="subscribe-container-text">
+                <div class="subscribe-box">
+                    <h6>Subscribe to our Blog post</h6>
+                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text</p>
+                </div>
+            </div>
+            <div class="subscribe-form">
+                <form id="subscribeForm" class="email-form" onsubmit="submitEmail(event)" action="" method="POST">
+                    <label for="email">
+                        <img src="mail.png" alt="메일 아이콘" class="mail-icon">
+                    </label>
+                    <input type="email" id="email" name="email" placeholder="Enter your e-mail address" required>
+                    <button id="modal-btn" type="button" onclick="validateEmail()">Subscribe</button>
+                </form>
             </div>
         </div>
+        <img src="footer_m.png" alt="고양이" class="background-image">
     </div>
-    <div class="background-image"></div>
+    <div id="modal" class="modal" style="display: none;">
+        <div class="modal-content">
+            <img src="modal_cat.png" alt="모달 고양이" class="modal_cat">
+            <h7>Thank you!</h7>
+            <p>Lorem Ipsum is simply dummy text of the printing industry.</p>
+            <button id="close-btn" class="close-btn">OK! I Love HODU</button>
+         </div>
+    </div>
     <footer class="footer">
-        <a href="index.html">
-            <img src="Logo-fin.png" alt="로고" class="logo"></a>
-        <div class="foot-nav">
-            <a href="#"><img src="icon-blog.png" alt="로고"></a>
-            <a href="#"><img src="icon-insta.png" alt="로고"></a>
-            <a href="#"><img src="icon-facebook.png" alt="로고"></a>
-            <a href="#"><img src="icon-youtube.png" alt="로고"></a>
+        <div class="foot-wrap">
+            <a href="index.html">
+                <img src="Logo-fin.png" alt="로고" class="logo"></a>
+            <div class="foot-nav">
+                <a href="#"><img src="icon-blog.png" alt="로고"></a>
+                <a href="#"><img src="icon-insta.png" alt="로고"></a>
+                <a href="#"><img src="icon-facebook.png" alt="로고"></a>
+                <a href="#"><img src="icon-youtube.png" alt="로고"></a>
+            </div>
+        </div>
+        <div class="foot-content">
+            <button>About</button>
+            <button>Blog</button>
+            <button>Support</button>
+            <button>Terms of Use</button>
         </div>
     </footer>
-    </div>
     <script src="script-m.js"></script>
 </body>
 </html>

@@ -242,11 +242,15 @@
     color: #606367;
 }
 
+.root_daum_roughmap root_daum_roughmap_landing {
+    margin: 0 auto;
+}
+
 .subscribe-container {
     width: 1400px;
     height: 200px;
     border-radius: 30px;
-    margin: 0 auto;
+    margin: 80px auto 0 auto;
     background: #263140;
     display : flex;
     justify-content: space-between;

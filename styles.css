@@ -243,7 +243,7 @@
 }
 
 .root_daum_roughmap root_daum_roughmap_landing {
-    left: 320px;
+    margin: 0 320px;
     justify-content: center;
 }
 

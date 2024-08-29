@@ -1,12 +1,10 @@
 # project1
-1. 프로젝트 - html,css,js를 이용하여 웹사이트 구현
-
-[pigma](https://www.figma.com/design/s9RCnA6dSi3QHHeMDFHKE6/EST-%EC%98%A4%EB%A5%B4%EB%AF%B8(BE)_HTML%2FCSS%2FJS?node-id=104924-12&t=XRumA7OaSftWL26B-0) 를 참고합니다.
-
+# 1. 프로젝트 - html,css,js를 이용하여 웹사이트 구현
+24.08.19 ~ 24.08.29
 
 ![KakaoTalk_20240829_050647247](https://github.com/user-attachments/assets/65aade20-bf09-4d7c-892b-7086a3bda774)
 
-요구사항은 다음과 같습니다.
+--요구사항--
 
 1. 피그마를 참고하여 페이지 구현을 합니다.
 2. 모바일 화면도 고려하여 페이지 구현을 합니다.
@@ -22,3 +20,12 @@
 
 
 
+# 2. 환경 및 배포
+개발 환경 : VS code, Github, CSS, JavaScript
+
+배포 URL : https://jungyouknow.github.io/project1/
+Repository : https://github.com/jungyouknow/project1
+
+# pc
+
+# 모바일

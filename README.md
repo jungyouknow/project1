@@ -1,5 +1,6 @@
 # project1
 # 1. 프로젝트 - html,css,js를 이용하여 웹사이트 구현
+
 24.08.19 ~ 24.08.29
 
 ![KakaoTalk_20240829_050647247](https://github.com/user-attachments/assets/65aade20-bf09-4d7c-892b-7086a3bda774)
@@ -21,24 +22,33 @@
 
 
 # 2. 환경 및 배포
+
 개발 환경 : VS code, Github, CSS, JavaScript
 
 배포 URL : https://jungyouknow.github.io/project1/
 Repository : https://github.com/jungyouknow/project1
 
+
 # pc
 ![pc](https://github.com/user-attachments/assets/2ce1500f-2a6b-45ab-ab31-fc9ba894595f)
+
 # 모바일
 ![mobile](https://github.com/user-attachments/assets/7e11bb77-2cdb-459b-8ed1-a1aaa19ab8d1)
 
 
-# 3. 아쉬운 점
- pc 버전 코드 작성시에 margin과 padding, px를 남발하여 혼용해서 사용
- 
-때문에 반응형 웹사이트로 제대로 만들지 못했고, 창 모드에서 배경과 텍스트가 잘리는 부작용 발생
 
-모바일 버전의 html을 다시 만드는 번거로움도 발생
+
+# 3. 아쉬운 점
+
+1. pc 버전 코드 작성시에 margin과 padding, px를 남발하여 혼용해서 사용
+ 
+2. 때문에 반응형 웹사이트로 제대로 만들지 못했고, 창 모드에서 배경과 텍스트가 잘리는 부작용 발생
+
+3. 모바일 버전의 html을 다시 만드는 번거로움도 발생
+
+
 
 # 4. 후기
+
 백엔드만 겉핥기로 잠깐 배웠고, 프론트엔드는 처음이었는데, 많이 헷갈리고 어려웠습니다.
 역량과 시간의 부족으로 끝까지 풀지 못한 것은 아쉽지만, 다음에 또 기회가 된다면 확실하게 만들어보고 싶습니다.

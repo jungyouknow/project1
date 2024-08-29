@@ -10,16 +10,26 @@ function closeMenu() {
     nav.style.width = '0px';
 }
 
-function validateEmail() {
+
+//이메일 구독
+document.getElementById('subscribe-btn').addEventListener('click', function() {
+    const emailInput = document.getElementById('email');
+    const email = emailInput.value;
+
     const emailPattern = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
-    let emailInput = document.getElementById("email").value;
-
-    if (emailInput === "") {
-        alert("이메일을 입력하세요.");
-    } else if (!emailPattern.test(emailInput)) {
-        alert("유효한 이메일 형식을 입력하세요.");
+    if (!email) {
+        alert("이메일을 입력해 주세요.");
+    } else if (!emailPattern.test(email)) {
+        alert("유효한 이메일 형식이 아닙니다.");
     } else {
-        modalOn();
+        document.getElementById('modal').style.display = 'flex';
     }
-}
+});
 
+document.getElementById('close-btn').addEventListener('click', function() {
+    alert("폼이 제출되었습니다!");
+    document.getElementById('modal').style.display = 'none';
+    document.getElementById('email').value = '';
+});
+
+const scrollTopBtn = document.getElementById('scroll-top-btn');

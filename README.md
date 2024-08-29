@@ -27,5 +27,15 @@
 Repository : https://github.com/jungyouknow/project1
 
 # pc
-
+![pc](https://github.com/user-attachments/assets/2ce1500f-2a6b-45ab-ab31-fc9ba894595f)
 # 모바일
+![mobile](https://github.com/user-attachments/assets/7e11bb77-2cdb-459b-8ed1-a1aaa19ab8d1)
+
+
+# 3. 아쉬운 점
+pc 버전 코드 작성시에 margin과 padding, px를 남발하여 혼용해서 사용.
+때문에 반응형 웹사이트로 제대로 만들지 못했고, 창 모드에서 배경과 텍스트가 잘리는 부작용 발생하였고, 그로 인해 모바일 버전의 html을 다시 만드는 번거로움도 발생.
+
+# 4. 후기
+백엔드만 겉핥기로 잠깐 배웠고, 프론트엔드는 처음이었는데, 확실히 어려웠다..많이..
+역량과 시간의 부족으로 끝까지 풀지 못한 것은 아쉽지만, 다음에 또 기회가 된다면 확실하게 만들어보고 싶다.
